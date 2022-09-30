@@ -4,7 +4,7 @@ export default function ProductCard({ name, price, thumb, quantity }) {
   return (
     <div
       className="bg-white rounded-md shadow-md overflow-hidden w-[250px] h-[400px] relative
-      hover: transition-all mb-8 flex flex-col items-center"
+      hover: transition-all mb-8 flex flex-col items-center pt-4"
     >
       <div
         className="flex w-[230px] h-[230px]"
