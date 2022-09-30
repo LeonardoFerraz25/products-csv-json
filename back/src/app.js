@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
+const productRouter = require('./routes/productRoter');
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/products', productRouter);
 
 module.exports = app;
